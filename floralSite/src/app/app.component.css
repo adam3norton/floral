@@ -1,0 +1,24 @@
+body {
+  border-style: solid;
+}
+
+.basic-grid {
+  height: 85vh;
+  margin-left: 3%;
+  margin-right: 3%;
+  display: grid;
+  gap: 1rem;
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.f {
+  gap: 10rem;
+}
